@@ -272,10 +272,15 @@ button {
 
 .team-item{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-img {
-    margin-bottom: 32px;
+    margin-bottom: 0;
+}
+
+.team-content{
+    padding: 32px 0;
 }
 
 .team-subtitle{
@@ -294,8 +299,6 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
-    margin-bottom: 32px;
     text-align: center;
 }
 /* #endregion */
