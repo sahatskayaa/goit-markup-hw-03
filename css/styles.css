@@ -61,8 +61,6 @@ button {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     overflow: hidden;
-
-    margin-bottom: 8px; 
   }
   
 .container {
@@ -225,6 +223,8 @@ button {
 .title-list {
     display: flex;
     gap: 24px;
+
+    margin-top: 8px;
 }
 
 .title-item {
