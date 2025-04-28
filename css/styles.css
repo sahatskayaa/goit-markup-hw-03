@@ -363,7 +363,7 @@ button {
 /* #region Footer */
 .footer{
     background-color: #2E2F42;
-    padding-top: 102px;
+    padding: 100px 0;
 }
 
 .logo-icon-footer{
@@ -375,6 +375,8 @@ button {
     color: #4D5AE5;
     text-transform: uppercase;
 
+    display: inline-block;
+    margin-bottom: 16px;
     
 }
 
@@ -388,8 +390,6 @@ button {
     letter-spacing: 0.02em;
     color: #F4F4FD;
 
-    width: 264px;
-    margin-top: 18px;
-    padding-bottom: 99px;
+    max-width: 264px;
 }
 /* #endregion */
