@@ -50,6 +50,20 @@ button {
     flex-grow: 1;
 }
   
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+
+    margin-bottom: 8px; 
+  }
   
 .container {
     max-width: 1440px;
@@ -208,21 +222,6 @@ button {
     padding: 120px 0;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    overflow: hidden;
-
-    margin-bottom: 8px; 
-  }
-
 .title-list {
     display: flex;
     gap: 24px;
@@ -331,11 +330,11 @@ button {
 .portfolio-item {
     border: 1px solid #E7E9FC;
     width: calc((100% - 2 * 24px) / 3);
-
-
+    box-sizing: border-box;
 }
 .portfolio-img {
-    
+    width: 100%;
+    height: auto;
 }
 
 .portfolio-subtitle{
