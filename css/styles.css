@@ -220,6 +220,10 @@ button {
     padding: 120px 0;
 }
 
+.section-title {
+    margin-bottom: 8px;
+}
+
 .title-list {
     display: flex;
     gap: 24px;
