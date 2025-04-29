@@ -58,8 +58,8 @@ button {
     border: 0;
     padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
     overflow: hidden;
   }
   
@@ -220,9 +220,6 @@ button {
     padding: 120px 0;
 }
 
-.section-title {
-    margin-bottom: 8px;
-}
 
 .title-list {
     display: flex;
@@ -241,6 +238,8 @@ button {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+
+    margin-bottom: 8px;
 }
 
 .title-text{
@@ -346,7 +345,7 @@ button {
 
 .portfolio-card-content {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    /* border: 1px solid #e7e9fc; */
     border-top: none;
   }
   
