@@ -322,7 +322,6 @@ button {
     text-transform: capitalize;
 
     margin-bottom: 72px;
-
 }
 
 .portfolio-list {
@@ -334,20 +333,21 @@ button {
 }
 
 .portfolio-item {
+    
     width: calc((100% - 2 * 24px) / 3);
     box-sizing: border-box;
-    overflow: hidden;
 }
 .portfolio-img {
     width: 100%;
     height: auto;
-    display: block;
-    border-bottom: 1px solid #e7e9fc;
+    /* border-bottom: 1px solid #e7e9fc; */
 }
 
 .portfolio-card-content {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
     border-top: none;
+    
   }
   
 
@@ -359,10 +359,10 @@ button {
     color: #2E2F42;
 
     margin-bottom: 8px;
-    padding-top: 32px;
+    /* padding-top: 32px;
     padding-left: 16px;
     padding-right: 16px;
-    
+     */
 }
 
 .portfolio-text{
@@ -370,9 +370,9 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
+    /* padding-bottom: 32px;
     padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 16px; */
 }
 /* #endregion */
 
